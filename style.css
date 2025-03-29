@@ -1,8 +1,8 @@
 /* Estilização geral */
 /* General Styles */
 body {
-    background-color: #1a1a1a; /* Grafite escuro */
-    color: #fff;
+    background-color: #121212;
+    color: #e0e0e0;
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
     padding: 0;
@@ -11,27 +11,37 @@ body {
 
 /* Header */
 header {
-    background: #121212;
+    background: #1a1a1a;
     padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
 
 h1 {
     font-size: 2.5rem;
-    color: #ffffff; /* Azul Neon */
+    color: #ffffff;
     text-shadow: 0px 0px 10px rgba(0, 234, 255, 0.7);
 }
 
+h2, h3 {
+    color: #00eaff;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #cfcfcf;
+}
+
 nav a {
-    color: #00eaff; /* Azul Neon */
+    color: #00eaff;
     text-decoration: none;
     font-size: 1.2rem;
-    margin: 0 10px;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ff0055; /* Vermelho Neon para hover */
+    color: #ff0055;
     text-shadow: 0px 0px 10px rgba(255, 0, 85, 0.7);
 }
 
@@ -72,7 +82,6 @@ nav a:hover {
 
 .btn {
     display: inline-block;
-    margin-top: 10px;
     padding: 10px 20px;
     background: #ff0055;
     color: white;
@@ -89,18 +98,17 @@ nav a:hover {
 /* Footer */
 footer {
     padding: 20px;
-    background: #121212;
+    background: #1a1a1a;
     margin-top: 40px;
 }
 
 #game-details {
     max-width: 800px;
     margin: 40px auto;
-    text-align: center;
     padding: 20px;
-    background: white;
+    background: #1a1a1a;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 234, 255, 0.3);
 }
 
 #game-details img {
@@ -175,4 +183,66 @@ footer {
 
 .h1.nunito-main {
     color: #D3D3D3; /* Cor cinza claro/gelo */
+}
+
+/* Estilização do vídeo */
+.game-video {
+    margin: 20px 0;
+}
+
+.game-video video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 234, 255, 0.5);
+}
+
+/* Requisitos do jogo */
+.game-requirements {
+    list-style: none;
+    padding: 0;
+}
+
+.game-requirements li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Tecnologias utilizadas */
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.tech-icons img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.tech-icons img:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    color: #00eaff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #ff0055;
+    text-shadow: 0px 0px 10px rgba(255, 0, 85, 0.7);
 }
