@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Mateus Daemon</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao meu portfólio</h1>
+        <h1 class="h1.nunito-main">M. Daemon</h1>
+        <nav class="nunito-main">
+            <a href="https://github.com/your-username" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/your-username/" target="_blank">LinkedIn</a>
+        </nav>
     </header>
-    <section>
-        <h2>Projetos</h2>
-        <ul>
-            <li><a href="link-do-projeto-1">Projeto 1</a></li>
-            <li><a href="link-do-projeto-2">Projeto 2</a></li>
-            <li><a href="link-do-projeto-3">Projeto 3</a></li>
-        </ul>
+    
+    <section id="projects">
+        <h2 class="nunito-main">My Projects</h2>
+        <div class="projects-container">
+            <a href="eldoria.html" class="project-card">
+                <img src="Images/Eldoria/Logo.PNG" alt="Eldoria">
+                <h3 class="nunito-main">Eldoria</h3>
+                <p>Adventure game full of mystery and magic!</p>
+            </a>
+        
+            <a href="bladeorfate.html" class="project-card">
+                <img src="Images/BladeOrFate/logo.png" alt="BladeOrFate">
+                <h3 class="nunito-main">Blade or Fate</h3>
+                <p>Forced to fight you must survive to all the dungeon masters</p>
+            </a>
+        </div>
     </section>
+
+    <footer>
+        <a href="aboutme.html" class="btn">About Me</a>
+    </footer>
 </body>
 </html>

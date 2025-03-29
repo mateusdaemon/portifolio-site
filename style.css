@@ -1,0 +1,178 @@
+/* Estilização geral */
+/* General Styles */
+body {
+    background-color: #1a1a1a; /* Grafite escuro */
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #121212;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #00eaff; /* Azul Neon */
+    text-shadow: 0px 0px 10px rgba(0, 234, 255, 0.7);
+}
+
+nav a {
+    color: #00eaff; /* Azul Neon */
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff0055; /* Vermelho Neon para hover */
+    text-shadow: 0px 0px 10px rgba(255, 0, 85, 0.7);
+}
+
+/* Projects Section */
+#projects {
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: #222;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 234, 255, 0.5);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    color: #00eaff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #00eaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff0055;
+    box-shadow: 0px 0px 10px rgba(255, 0, 85, 0.7);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #121212;
+    margin-top: 40px;
+}
+
+#game-details {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#game-details img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+#game-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+#game-details li {
+    margin: 10px 0;
+}
+
+#game-details a {
+    color: #00aced;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#game-details a:hover {
+    text-decoration: underline;
+}
+
+#about-me, #technical-info {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#technical-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#technical-info li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.skills-container span {
+    background: #00aced;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Aplicando a fonte Nunito Sans com um peso específico e configurações personalizadas */
+.nunito-main {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;  /* Ajuste o peso conforme necessário, por exemplo, 400 para normal */
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+  }
+
+.h1.nunito-main {
+    color: #D3D3D3; /* Cor cinza claro/gelo */
+}
