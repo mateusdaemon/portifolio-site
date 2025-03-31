@@ -5,24 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blade or Fate</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Blade or Fate</h1>
         <nav>
-            <a href="index.html">← Back to Portfolio</a>
+            <a href="index.html">&#8592; Back to Portfolio</a>
         </nav>
     </header>
 
     <section id="game-details">
-        <img src="game1-thumbnail.jpg" alt="Game 1">
+        <div class="game-video">
+            <h2>Gameplay</h2>
+            <video controls>
+                <source src="videos/Blade or Fate_trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
         <h2>Blade or Fate</h2>
-        <p>A brief description of the game, what it’s about, and any interesting details.</p>
+        <p>Trapped in a mysterious dungeon, you control a nameless samurai with one goal: become the Dungeon Master. To escape, you must defeat enemies in each room, strategically planning your every move. The path to mastery is a battle of wits, where the right distribution of attributes can make all the difference.</p>
+
+        <h3>Game Mechanics</h3>
+        <p>In Blade or Fate, I was able to learn gameplay mechanics that improved my skills as a game developer. I implemented a turn-based combat system, allowing the player and enemies to alternate turns in a strategic battle. Additionally, I created a dynamic room system, ensuring that enemies appear in random order, providing a fresh challenge each time the player progresses. I also developed a skill progression system where players can allocate points to different attributes after each room, influencing their combat abilities and allowing for a personalized playstyle. Each enemy has its own attack pattern and special actions, such as healing or buffing, which adds an extra layer of strategy to the game. This combination of turn-based combat, skill management, and enemy behavior created an engaging and tactical gameplay experience.</p>
+
+        <h3>System Requirements</h3>
+        <ul class="game-requirements">
+            <li><strong>OS:</strong> Android</li>
+            <li><strong>Storage:</strong> 40Mb</li>
+            <li><strong>RAM:</strong> 4GB</li>
+            <li><strong>GPU:</strong> Intel UHD Graphics 620 or equivalent</li>
+        </ul>
+
+        <h3>Technologies Used</h3>
+        <div class="tech-icons">
+            <img src="Images/Unity-logo.png" alt="Unity">
+            <img src="Images/Logo_Blender.png" alt="Blender">
+        </div>
 
         <h3>Links</h3>
         <ul>
-            <li><a href="https://yourgame.com" target="_blank">Play the Game</a></li>
-            <li><a href="https://github.com/your-repo" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://gamejolt.com/games/bladeorfate/935193" target="_blank">Play the Game</a></li>
+            <li><a href="https://github.com/mateusdaemon/TurnBased" target="_blank">GitHub Repository</a></li>
         </ul>
     </section>
 
